@@ -1,7 +1,3 @@
 # Code Institute
 
-Welcome pavzel,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+https://pavzel.github.io/pavzel-cv-2020-01/
