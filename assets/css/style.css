@@ -41,6 +41,34 @@
 .color-download {
     background-color: #b0b0b0;
 }
+/*
+.color-main-column1 {
+    background-color: #b0b0b0;
+}
+
+.color-main-column2 {
+    background-color: lightskyblue;
+}
+
+.color-main-column3 {
+    background-color: greenyellow;
+}
+
+.color-main-column4 {
+    background-color: #ffff00;
+}
+*/
+
+/*-------------------------------------------------Effects */
+
+.hover-color:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.hover-size:hover {
+    font-size: 200%;
+}
 
 
 /*-------------------------------------------------Header */
@@ -147,6 +175,53 @@ header {
     border-radius: 50px;
 }
 
+
+/*-------------------------------------------------Main-Home */
+
+.main-home {
+    /*min-height: 200px;*/
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.main-heading {
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.main-column {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /*min-height: 200px;*/
+    float: none;
+}
+
+.main-column-heading {
+    display: block;
+    margin: 15px 15px 5px 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: black;
+}
+
+.main-column-content {
+    display: block;
+    margin: 10px 15px 5px 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+
 /*-------------------------------------------------Footer */
 
 footer {
@@ -190,9 +265,4 @@ footer {
     vertical-align: top;
     color:  #ffcd00;
     padding-left: 10px;
-}
-
-.cv-download-icon:hover {
-    color: red;
-    font-size: 30px;
 }
