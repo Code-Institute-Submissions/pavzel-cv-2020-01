@@ -5,6 +5,11 @@
     text-transform: uppercase;
 }
 
+.active {
+    text-decoration: underline;
+    font-weight: 700;
+    color: darkblue;
+}
 
 /*-------------------------------------------------Colors */
 
@@ -41,7 +46,7 @@
 .color-download {
     background-color: #b0b0b0;
 }
-/*
+
 .color-main-column1 {
     background-color: #b0b0b0;
 }
@@ -57,7 +62,7 @@
 .color-main-column4 {
     background-color: #ffff00;
 }
-*/
+
 
 /*-------------------------------------------------Effects */
 
@@ -187,11 +192,13 @@ header {
 }
 .main-heading {
     display: block;
+    margin: 10px 0 20px 15px;
+    /*margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;*/
     font-family: "Exo", sans-serif;
     font-size: 50px;
     font-weight: 200;
-    margin-left: 15px;
-    margin-top: 15px;
 }
 
 .main-column {
