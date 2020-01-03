@@ -5,6 +5,11 @@
     text-transform: uppercase;
 }
 
+#nav-menu .active {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 
 /*-------------------------------------------------Colors */
 
