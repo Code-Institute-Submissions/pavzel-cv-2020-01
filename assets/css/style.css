@@ -69,18 +69,20 @@
 .hover-color:hover {
     color: red;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .hover-size:hover {
     font-size: 200%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 /*-------------------------------------------------Header */
-
-header {
-    margin: 0;
-}
 
 .header-photo {
     background: url("../images/pz-photo.jpg");
@@ -91,10 +93,7 @@ header {
 }
 
 .name-purpose {
-    margin-left: 35px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 30px 20px 30px;
 }
 
 .name {
@@ -111,10 +110,7 @@ header {
 }
 
 .header-contacts {
-    margin-left: 35px;
-    margin-right: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 20px 20px 35px;
 }
 
 .header-contacts-heading {
@@ -158,9 +154,9 @@ header {
 }
 
 .list-inline-item {
+    padding: 0;
     height: 100px;
     text-align: center;
-    padding: 0;
 }
 
 .list-inline-item a {
@@ -184,18 +180,14 @@ header {
 /*-------------------------------------------------Main-Home */
 
 .main-home {
-    /*min-height: 200px;*/
     margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding: 20px 0 30px 0;
+    background-color: #fafafa;
 }
+
 .main-heading {
     display: block;
     margin: 10px 0 20px 15px;
-    /*margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 10px;*/
     font-family: "Exo", sans-serif;
     font-size: 50px;
     font-weight: 200;
@@ -203,10 +195,11 @@ header {
 
 .main-column {
     display: inline-block;
-    margin: 0;
+    /*width: 75%;
+    margin: 10px;*/
     padding: 0;
-    /*min-height: 200px;*/
     float: none;
+    border: 1px solid black;
 }
 
 .main-column-heading {
@@ -245,21 +238,21 @@ footer {
 
 .footer-column-item {
     display: block;
+    margin-top: 15px;
     padding-left: 15px;
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 15px;
+
 }
 
 .footer-column-content {
-    display: inline-block;
+    display: block;
+    margin-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    display: block;
-    margin-top: 10px;
+    font-weight: 400;  
     color: #ffcd00;
 }
 
@@ -268,8 +261,8 @@ footer {
 }
 
 .cv-download-icon {
+    padding-left: 10px;
     font-size: 20px;
     vertical-align: top;
     color:  #ffcd00;
-    padding-left: 10px;
 }
