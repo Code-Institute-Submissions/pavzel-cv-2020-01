@@ -223,17 +223,12 @@
 #main-education {
     background-color: #f0f0f0;
     padding: 15px 5px;
-    /*padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;*/
 }
 
 .education-item {
     display: block;
     float: none;
     width: 100%;
-    /*margin: 0;*/
     background-color: #fff;
     margin: 5px;
     padding: 10px 15px;
@@ -262,13 +257,13 @@
 
 .education-column-content {
     display: block;
+    margin: 0;
     margin-top: 5px;
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: black;
-    text-decoration: none;
 }
 
 .download-icon {
@@ -276,6 +271,34 @@
     font-size: 120%;
     vertical-align: middle;
     color: inherit;
+}
+
+
+/*-------------------------------------------------Other */
+
+#main-other {
+    background-color: #f0f0f0;
+    padding: 40px 5px;
+}
+
+.other-item {
+    display: block;
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+    /*height: auto;*/
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .other-item {
+        display: block;
+        float: none;
+        width: 555px;
+    }
 }
 
 /*-------------------------------------------------Footer */
