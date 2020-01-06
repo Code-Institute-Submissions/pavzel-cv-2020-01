@@ -45,7 +45,7 @@
 }
 
 .color-programming {
-    background-color: greenyellow;
+    background-color: rgb(173, 255, 47);
 }
 
 .color-other {
@@ -411,6 +411,52 @@
     text-decoration: none;
     color: black;
 }
+
+
+/*-------------------------------------------------Programming */
+
+#main-programming {
+    background-color: rgba(173, 255, 47, 0.1);
+    padding: 15px 5px;
+}
+
+.programming-container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.programming-item {
+    display: block;
+    float: none;
+    width: 450px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.programming-column-heading {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.programming-column-content {
+    display: block;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
 
 /*-------------------------------------------------Other */
 
