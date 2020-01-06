@@ -314,10 +314,10 @@
 
 @media screen and (max-width: 450px) {
     .work-history {
-        margin-left: 5px;
+        margin-left: 0px;
     }
     .work-history-list {
-        width: 100%;
+        width: 98%;
     }
 }
 
@@ -372,10 +372,10 @@
 
 @media screen and (max-width: 450px) {
     .work-results {
-        margin-left: 5px;
+        margin-left: 0px;
     }
     .work-results-list {
-        width: 100%;
+        width: 98%;
     }
 }
 
