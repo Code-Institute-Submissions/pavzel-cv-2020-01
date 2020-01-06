@@ -313,6 +313,9 @@
 }
 
 @media screen and (max-width: 450px) {
+    .work-history {
+        margin-left: 5px;
+    }
     .work-history-list {
         width: 100%;
     }
@@ -368,6 +371,9 @@
 }
 
 @media screen and (max-width: 450px) {
+    .work-results {
+        margin-left: 5px;
+    }
     .work-results-list {
         width: 100%;
     }
