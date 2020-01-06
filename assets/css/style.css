@@ -436,6 +436,12 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width: 500px) {
+    .programming-container, .programming-item {
+        width: 100%;
+    }
+}
+
 .programming-column-heading {
     display: block;
     margin: 0;
@@ -468,7 +474,7 @@
 .other-item {
     display: block;
     float: none;
-    width: 100%;
+    width: 555px;
     background-color: #fff;
     margin: 25px 5px;
     padding: 10px 15px;
@@ -476,11 +482,9 @@
     border-radius: 10px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .other-item {
-        display: block;
-        float: none;
-        width: 555px;
+        width: 100%;
     }
 }
 
