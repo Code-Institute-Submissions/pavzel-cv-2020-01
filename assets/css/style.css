@@ -318,9 +318,15 @@
     font-weight: 500;
 }
 
-.work-history-item-place, .work-history-item-position {
+.work-history-item-place {
     font-family: "Roboto", sans-serif;
     font-size: 17px;
+    font-weight: 300;
+}
+
+.work-history-item-position {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 300;
 }
 
