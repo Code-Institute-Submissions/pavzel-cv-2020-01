@@ -13,9 +13,10 @@
 
 .main-heading {
     display: block;
-    margin: 10px 0 10px 15px;
+    margin: 0px;
+    margin-bottom: 10px;
     font-family: "Exo", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 200;
 }
 
@@ -32,8 +33,9 @@
     /*background-color: rgba(0, 135, 243, 0.04);*/
 }
 
-#main-work {
-    background-color: red;
+.color-page-work {
+    background-color: hsl(207, 50%, 94%);
+    /*background-color: red;*/
     /*background-color: rgba(0, 135, 243, 0.06);*/
 }
 
@@ -56,27 +58,27 @@
     color: #444444;
 }
 
-.color-home {
+.color-button-home {
     background-color: rgb(0, 90, 162);
 }
 
-.color-education {
+.color-button-education {
     background-color: rgb(0, 75, 135);
 }
 
-.color-work {
+.color-button-work {
     background-color: rgb(0, 60, 108);
 }
 
-.color-programming {
+.color-button-programming {
     background-color: rgb(0, 45, 81);
 }
 
-.color-other {
+.color-button-other {
     background-color: rgb(0, 30, 54);
 }
 
-.color-download {
+.color-button-download {
     background-color: rgb(0, 15, 27);
 }
 
@@ -125,7 +127,7 @@ section-header {
 
 .section-main {
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
 	padding-bottom: 110px;
     padding-right: 5px;
     padding-left: 5px;
@@ -225,7 +227,7 @@ section-header {
 
 .cleanmenu {
     font-size: 0;
-    border-top: 10px solid black;
+    border-top: 5px solid black;
 }
 
 #nav-menu {
@@ -360,9 +362,10 @@ section-header {
 .work-history-list {
     display: block;
     float: none;
+    list-style-type: none;
     background-color: #fff;
     margin: 0px 5px;
-    padding: 0px 15px;
+    padding: 10px 15px 0px 15px;
     border: 1px solid black;
     border-radius: 10px;
     width: 570px;
@@ -378,7 +381,6 @@ section-header {
 }
 
 .work-history-item {
-    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -450,7 +452,7 @@ section-header {
 }
 
 .work-results-item {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -460,22 +462,30 @@ section-header {
     font-weight: 500;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-.dropbtn {
-    cursor: pointer;
+
+.work-results-item-link {
     padding-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-weight: 300;
-    font-style: italic;
+    color: black;
 }
 
+ol {
+    margin-left: 40px;
+}
+
+ol > li > a {
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+}
+
+/*
 .dropdown-content {
-    display: none;
     position: absolute;
     left: 0px;
     padding-left: 5px;
@@ -499,7 +509,7 @@ section-header {
     text-decoration: none;
     color: black;
 }
-
+*/
 
 /*-------------------------------------------------Programming */
 
@@ -556,6 +566,7 @@ section-header {
     background-color: #fff;
     margin: 0px auto;
     margin-bottom: 20px;
+    margin-top: 10px;
     padding: 10px 15px;
     border: 1px solid black;
     border-radius: 10px;
