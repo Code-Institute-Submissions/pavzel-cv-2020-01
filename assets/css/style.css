@@ -138,7 +138,14 @@ section-header {
 
 @media screen and (max-width: 991px) {
     .section-main {
-        padding-bottom: 330px;
+        padding-bottom: 310px;
+    }
+}
+
+/* for very narrow screens */
+@media screen and (max-width: 466px) {
+    .section-main {
+        padding-bottom: 350px;
     }
 }
 
