@@ -23,9 +23,8 @@
 
 /*-------------------------------------------------Colors */
 
-#main-home {
-    background-color: red;
-    /*background-color: rgba(0, 135, 243, 0.02);*/
+.color-page-home {
+    background-color: hsl(207, 50%, 98%);
 }
 
 .color-page-education {
