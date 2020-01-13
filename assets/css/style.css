@@ -138,7 +138,7 @@ section-header {
 
 @media screen and (max-width: 991px) {
     .section-main {
-        padding-bottom: 310px;
+        padding-bottom: 330px;
     }
 }
 
@@ -306,9 +306,28 @@ section-header {
 }
 
 
-/*-------------------------------------------------Main-Education */
+/*-------------------------------------------------Main-Education (similar to Other) */
 
 .education-item {
+    display: block;
+    float: none;
+    width: 725px;
+    background-color: #fff;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    .education-item {      
+        width: 100%;
+    }
+}
+
+/* .education-item {
     display: block;
     float: none;
     width: 100%;
@@ -318,7 +337,7 @@ section-header {
     height: 95%;
     border: 1px solid black;
     border-radius: 10px;
-}
+} 
 
 @media screen and (min-width: 720px) {
     .education-item {
@@ -326,7 +345,7 @@ section-header {
         float: none;
         width: 720px;
     }
-}
+} */
 
 .education-column-heading {
     display: block;
@@ -349,7 +368,7 @@ section-header {
     color: black;
 }
 
-.download-icon {
+.main-icon {
     padding-left: 10px;
     font-size: 120%;
     vertical-align: middle;
@@ -488,32 +507,6 @@ ol > li > a {
     color: black;
 }
 
-/*
-.dropdown-content {
-    position: absolute;
-    left: 0px;
-    padding-left: 5px;
-    background-color: white;
-    width: 110%;
-    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    padding-left: 10px;
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-}
-
-.dropdown-content a {
-    display: block;
-    padding-left: 3px;
-    text-decoration: none;
-    color: black;
-}
-*/
 
 /*-------------------------------------------------Programming */
 
@@ -577,8 +570,7 @@ ol > li > a {
 }
 
 @media screen and (max-width: 600px) {
-    .other-item {
-        
+    .other-item {      
         width: 100%;
     }
 }
