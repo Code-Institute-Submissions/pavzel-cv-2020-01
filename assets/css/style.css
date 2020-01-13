@@ -28,15 +28,12 @@
     /*background-color: rgba(0, 135, 243, 0.02);*/
 }
 
-#main-education {
-    background-color: red;
-    /*background-color: rgba(0, 135, 243, 0.04);*/
+.color-page-education {
+    background-color: hsl(207, 50%, 96%);
 }
 
 .color-page-work {
     background-color: hsl(207, 50%, 94%);
-    /*background-color: red;*/
-    /*background-color: rgba(0, 135, 243, 0.06);*/
 }
 
 #main-programming {
@@ -141,7 +138,7 @@ section-header {
 
 @media screen and (max-width: 991px) {
     .section-main {
-        padding-bottom: 310px;
+        padding-bottom: 330px;
     }
 }
 
@@ -156,7 +153,7 @@ section-header {
 /*-------------------------------------------------Header */
 
 .header-photo {
-    background: url("/assets/images/pz-photo.jpg");
+    background: url("../images/pz-photo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
