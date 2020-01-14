@@ -377,8 +377,38 @@ section-header {
 }
 
 @media screen and (max-width: 466px) {
+    .header-photo {
+        min-height: 200px;
+    }
+
+    .name-purpose {
+        margin: 5px 15px;
+    }
+
+    .name {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .purpose {
+        font-size: 25px;
+    }
+
     .section-main {
-        padding-bottom: 350px;
+        padding-bottom: 245px;
+    }
+
+    .footer-column {
+        min-height: 0px;
+    }
+
+    .footer-heading {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .footer-content {
+        margin-top: 0px;
+        margin-bottom: 5px;
     }
 }
 
